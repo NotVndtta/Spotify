@@ -15,10 +15,10 @@ const Login = () => {
     "user-read-recently-played",
     "user-top-read",
   ];
-  window.location.href = `${api_uri}?client_id=${client_id}&redirect_uri=${redirect_uri}&scope=${scope.join(
+  window.location.href = `${apiUrl}?client_id=${clientId}&redirect_uri=${redirectUrl}&scope=${scope.join(
     " "
   )}&response_type=token&show_dialog=true`;
-  }
+  };
   return (
     <div className='flex flex-col justify-center items-center h-screen w-screen bg-[#1db954] space-y-20'>
       <img className='h-[20vh]'
