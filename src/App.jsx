@@ -5,6 +5,7 @@ import { useStateProvider } from './utils/StateProvider'
 import reducer from './utils/reducer';
 import { reducerCases } from './utils/Constants';
 import Spotify from './components/Spotify';
+import './index.css'
 
 function App() {
   const [{token}, dispatch] = useStateProvider();
